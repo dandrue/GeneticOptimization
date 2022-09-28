@@ -1,4 +1,5 @@
 # GeneticOptimization
+
 Repository for the optimization of a prestablished problem using Genetic Algorithms from scratch.
 
 The genetic optimization algorithm exposed here is composed by 6 files:
@@ -12,6 +13,6 @@ The genetic optimization algorithm exposed here is composed by 6 files:
 For the test of the algorithm on the main.py file is define the problem to maximize the volume of a box given certatin conditions.
 
 3 genes are defined, $a$ $b$ and $c$, each variable is between $[5, 42]$, the objective function wants to maximize the volume,
-in the restrictions the variables must be greater than zero and $x+2*y+2*z=72$.
+in the restrictions the variables must be greater than zero and $x+2 * y+2 *z = 72$.
 
 In functions.py the functions for codification, selection, elitism, crossover, mutation and decodification are defined.
